@@ -1,0 +1,25 @@
+body{
+    background:black ;
+    cursor: none;
+    height: 100vh;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 100%;
+}
+.cercel{
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 100%;
+}
+.dot ,.cercel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
